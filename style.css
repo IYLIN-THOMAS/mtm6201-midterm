@@ -91,21 +91,20 @@ opacity:50%;
     border-bottom: 1px dotted;
   }
 
-button{
-    position: relative;
-    top: 30px;
-    left:20px;
-    width:90%;
-    height: 56px;
-    background: rgb(63, 86, 233);
-    font-size: 16px;
-    color: #ffffff;
-    font-weight: 500;
-    cursor: pointer;
-    border-radius: 5px;
-    border: none;
-}
-
-.heading{
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    position:relative;
+    top:40px;
+    right:60px;
+    background-color: #007bff; /* Blue color */
+    color: #ffffff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
